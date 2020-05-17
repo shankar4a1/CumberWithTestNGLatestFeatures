@@ -19,6 +19,7 @@ test -Dcucumber.filter.tags=@Test
 7. Log4j 
 8. Supports cross browser
 9. Table transformer
+10. Retry failed scenarios with rerun plugin
 
 
 
@@ -29,4 +30,4 @@ test -Dcucumber.filter.tags=@Test
 2. Cloud - Sauce/Browser stack 
 3. Integration with CSv/Excel
 4. Logging customized messages
-5. Retry failed scenarios 
+5. Retry failed scenarios with out re run plugin

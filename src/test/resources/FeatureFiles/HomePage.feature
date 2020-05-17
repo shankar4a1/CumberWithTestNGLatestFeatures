@@ -1,6 +1,6 @@
 Feature: Navigation to CCS home page
 
-  @Test @Regression @sfc69
+  @Test1 @Regression @sfc69
   Scenario Outline: User launches the browser and navigate to CCS home page
     Given user logs in to the CCS application for "ScenarioID"
     When User enter ccs url
@@ -9,7 +9,7 @@ Feature: Navigation to CCS home page
       | ScenarioID |
       | Scenario 1 |
 
-  @Test1
+  @Test
   Scenario Outline: To verify user is displayed GM landing page
     Given user logs in to the CCS application for "<ScenarioID>"
     And User is navigated to CCS home page
