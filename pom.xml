@@ -155,7 +155,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.maven.surefire</groupId>
-            <artifactId>surefire-junit47</artifactId>
+            <artifactId>surefire-testng</artifactId>
             <version>${maven.surefire.plugin.version}</version>
         </dependency>
         <dependency>
@@ -208,8 +208,12 @@
                         <configuration>
                             <properties>
                                 <property>
+                                    <name>parallel</name>
+                                    <value>methods</value>
+                                </property>
+                                <property>
                                     <name>dataproviderthreadcount</name>
-                                    <value>20</value>
+                                    <value>${surefire.fork.count}</value>
                                 </property>
                             </properties>
                             <useUnlimitedThreads>false</useUnlimitedThreads>
