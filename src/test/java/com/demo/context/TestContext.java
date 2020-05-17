@@ -14,6 +14,7 @@ import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.testng.asserts.SoftAssert;
 
 import javax.imageio.ImageIO;
 import java.io.ByteArrayOutputStream;
@@ -39,6 +40,7 @@ public class TestContext {
     private JSONUtility jsonUtilityObj;
 
     public String allPageScreenshotFlag;
+    public SoftAssert softAssertion;
 
 
 
@@ -55,6 +57,8 @@ public class TestContext {
         browserFactory.initiateDriver(configReader.getBrowserName());
         driver = browserFactory.getDriver();
         objectManager = new PageObjectManager(driver, scenario);
+
+        softAssertion = new SoftAssert();
         long threadId = Thread.currentThread().getId();
         String processName = ManagementFactory.getRuntimeMXBean().getName();
         System.out.println("Started in thread: " + threadId + ", in JVM: " + processName);
@@ -82,6 +86,7 @@ public class TestContext {
 
     @After
     public void cleanUp() throws Exception {
+        softAssertion.assertAll();
         if(configReader.get("browserName").equalsIgnoreCase("chrome_profile")||configReader.get("browserName").equalsIgnoreCase("CHROME_HEADLESS"))
         {browserFactory.deleteDirectory();}
         takeSnapShot();

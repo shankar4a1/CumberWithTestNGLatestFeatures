@@ -1,0 +1,106 @@
+2020-05-17 21:47:20 INFO  TestContext:48 - =================User launches the browser and navigate to CCS home page execution starts===================
+2020-05-17 21:47:20 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 21:47:30 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 21:47:35 INFO  BrowserFactory:91 -  launched
+2020-05-17 21:47:36 INFO  BrowserFactory:91 -  launched
+2020-05-17 21:47:38 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 21:47:49 INFO  TestContext:89 - =================User launches the browser and navigate to CCS home page execution ends===================
+2020-05-17 21:47:49 INFO  TestContext:48 - =================As a buyer I want to be given a CTA button to return to the search result page execution starts===================
+2020-05-17 21:47:49 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 21:47:58 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 21:48:00 INFO  BrowserFactory:91 -  launched
+2020-05-17 21:48:02 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 21:48:07 INFO  TestContext:89 - =================As a buyer I want to be given a CTA button to return to the search result page execution ends===================
+2020-05-17 22:33:47 INFO  TestContext:48 - =================User launches the browser and navigate to CCS home page execution starts===================
+2020-05-17 22:33:47 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 22:33:53 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 22:33:56 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:33:57 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:33:59 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 22:34:08 INFO  TestContext:89 - =================User launches the browser and navigate to CCS home page execution ends===================
+2020-05-17 22:34:08 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 22:34:08 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 22:34:16 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 22:34:18 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:34:20 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 22:34:25 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-17 22:39:14 INFO  TestContext:48 - =================User launches the browser and navigate to CCS home page execution starts===================
+2020-05-17 22:39:14 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 22:39:14 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 22:39:14 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 22:39:22 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 22:39:22 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 22:39:26 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:39:27 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:39:28 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 22:39:28 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:39:30 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 22:39:33 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-17 22:39:40 INFO  TestContext:89 - =================User launches the browser and navigate to CCS home page execution ends===================
+2020-05-17 22:50:36 INFO  TestContext:48 - =================User launches the browser and navigate to CCS home page execution starts===================
+2020-05-17 22:50:36 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 22:50:36 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 22:50:36 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 22:50:43 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 22:50:43 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 22:50:48 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:50:48 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:50:49 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:50:51 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 22:50:52 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 22:50:56 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-17 22:51:01 INFO  TestContext:89 - =================User launches the browser and navigate to CCS home page execution ends===================
+2020-05-17 22:52:20 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 22:52:20 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 22:52:27 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 22:52:30 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:52:32 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 22:52:36 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-17 22:53:31 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 22:53:31 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 22:53:38 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 22:53:41 INFO  BrowserFactory:91 -  launched
+2020-05-17 22:53:43 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 22:53:48 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-17 23:06:07 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 23:06:07 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 23:06:14 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 23:06:16 INFO  BrowserFactory:91 -  launched
+2020-05-17 23:06:19 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 23:06:23 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-17 23:07:25 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 23:07:25 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 23:07:32 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 23:07:35 INFO  BrowserFactory:91 -  launched
+2020-05-17 23:07:37 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 23:07:42 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-17 23:18:31 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 23:18:31 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-17 23:18:40 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 23:18:43 INFO  BrowserFactory:91 -  launched
+2020-05-17 23:18:45 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 23:18:52 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-17 23:30:58 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 23:30:58 INFO  BrowserFactory:33 - Opening CHROMEbrowser
+2020-05-17 23:31:08 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 23:31:12 INFO  BrowserFactory:91 -  launched
+2020-05-17 23:31:14 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 23:31:20 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-17 23:31:41 INFO  TestContext:48 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-17 23:31:41 INFO  BrowserFactory:33 - Opening CHROMEbrowser
+2020-05-17 23:31:51 INFO  TestContext:61 - Successfully lunched the chrome browser
+2020-05-17 23:31:54 INFO  BrowserFactory:91 -  launched
+2020-05-17 23:31:57 INFO  HomePage:47 - User is on CCS home page
+2020-05-17 23:32:04 INFO  TestContext:89 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-18 00:01:44 INFO  TestContext:50 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-18 00:01:44 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-18 00:01:57 INFO  TestContext:65 - Successfully lunched the chrome browser
+2020-05-18 00:02:01 INFO  BrowserFactory:91 -  launched
+2020-05-18 00:02:04 INFO  HomePage:47 - User is on CCS home page
+2020-05-18 00:02:08 INFO  TestContext:94 - =================To verify user is displayed GM landing page execution ends===================
+2020-05-18 00:13:19 INFO  TestContext:50 - =================To verify user is displayed GM landing page execution starts===================
+2020-05-18 00:13:19 INFO  BrowserFactory:33 - Opening chromebrowser
+2020-05-18 00:13:32 INFO  TestContext:65 - Successfully lunched the chrome browser
+2020-05-18 00:13:48 INFO  BrowserFactory:91 -  launched
+2020-05-18 00:13:50 INFO  HomePage:47 - User is on CCS home page
+2020-05-18 00:13:55 INFO  TestContext:94 - =================To verify user is displayed GM landing page execution ends===================
