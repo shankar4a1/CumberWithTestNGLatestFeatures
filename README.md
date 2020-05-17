@@ -1,5 +1,5 @@
-# CucumberWithLatestFeatures
-CucumberWithLatestFeatures
+# CucumberWithTestNGLatestFeatures
+CucumberWithTestNGLatestFeatures
 
 Cucumber with DI(pico container) and TestNG
 
