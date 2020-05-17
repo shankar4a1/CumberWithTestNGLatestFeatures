@@ -1,11 +1,11 @@
 package com.demo.TestRunner;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
-import org.junit.runner.RunWith;
 
 
-@RunWith(Cucumber.class)
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.DataProvider;
+
 @CucumberOptions(
         strict = false,
         features = {"src/test/resources/FeatureFiles"},
@@ -21,6 +21,12 @@ import org.junit.runner.RunWith;
 
 
 
-public class TestRunner {
+public class TestRunner extends AbstractTestNGCucumberTests {
+
+    @Override
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 }
  

@@ -9,7 +9,7 @@ Feature: Navigation to CCS home page
       | ScenarioID |
       | Scenario 1 |
 
-  @Test1
+  @Test
   Scenario Outline: To verify user is displayed GM landing page
     Given user logs in to the CCS application for "<ScenarioID>"
     And User is navigated to CCS home page

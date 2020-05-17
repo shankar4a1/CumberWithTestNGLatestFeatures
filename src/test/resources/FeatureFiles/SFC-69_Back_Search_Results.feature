@@ -1,6 +1,6 @@
 Feature: SFC-69 related test cases.
 
-  @Test @SFC-65 @SFC-118
+  @Test1 @SFC-65 @SFC-118
   Scenario Outline: As a buyer I want to be given a CTA button to return to the search result page
     Given user logs in to the CCS application for "<ScenarioID>"
     And User is navigated to CCS home page
