@@ -12,8 +12,7 @@ public class PageObjectManager {
 
 	//Page objects
 	private HomePage homePageObj;
-	private GMLandingPage gmLandingPage;
-	private SearchFrameworkPage searchFrameworkPage;
+	private SearchResultPage searchResultPage;
 
 
 	public PageObjectManager(WebDriver driver, Scenario scenario) {
@@ -25,13 +24,8 @@ public class PageObjectManager {
 		return homePageObj == null ? homePageObj = new HomePage(driver,scenario) : homePageObj;
 	}
 
-	public GMLandingPage getGmLandingPageObj() {
-		return gmLandingPage == null ? gmLandingPage = new GMLandingPage(driver,scenario) : gmLandingPage;
+	public SearchResultPage getSearchResultPageObj() {
+		return searchResultPage == null ? searchResultPage = new SearchResultPage(driver, scenario) : searchResultPage;
 	}
-
-	public SearchFrameworkPage getSearchFrameworkPageObj() {
-		return searchFrameworkPage == null ? searchFrameworkPage = new SearchFrameworkPage(driver, scenario) : searchFrameworkPage;
-	}
-
 
 }

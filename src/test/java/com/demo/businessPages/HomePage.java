@@ -24,11 +24,14 @@ public class HomePage extends ReusableLibrary {
     /*@FindBy(how = How.XPATH, using = "//button[@class='homepage-hero__search-button']")
     private WebElement searchButton;*/
 
-    @FindBy(xpath = "//button[@class='homepage-hero__search-button']")
+    @FindBy(xpath = "(//button[@class='gem-c-search__submit'])[1]")
     private WebElement searchButton;
 
-    @FindBy(xpath = "//input[@id='framework_q']")
-    private WebElement enterFrameworkDetails;
+    @FindBy(id = "super-search-menu-toggle")
+    private WebElement homeSearchButton;
+
+    @FindBy(name = "q")
+    private WebElement searchBox;
 
     public HomePage(WebDriver driver, Scenario scenario) {
         this.driver = driver;
@@ -39,11 +42,11 @@ public class HomePage extends ReusableLibrary {
     }
 
     public void homePage1() {
-        WebElement homeLogo = driver.findElement(By.xpath("//a[@class='logo']//img"));
+        WebElement homeLogo = driver.findElement(By.xpath("//*[@class='gem-c-organisation-logo__name']"));
         if (homeLogo.isDisplayed()) {
-            waitForSeconds(2);
-            String homeLogoText = homeLogo.getAttribute("alt");
-           // Assert.assertTrue(homeLogoText.contains("CCS homepage"));
+            //waitForSeconds(2);
+            //String homeLogoText = homeLogo.getAttribute("alt");
+            // Assert.assertTrue(homeLogoText.contains("CCS homepage"));
             log.info("User is on CCS home page");
             scenario.write("User is on CCS home page");
         } else {
@@ -52,9 +55,13 @@ public class HomePage extends ReusableLibrary {
         }
     }
 
-    public void enterFrameworkDetails(String framework) {
+    public void activateSearch() {
+        homeSearchButton.click();
+    }
+
+    public void enterFrameworkDetails(String searchText) {
         waitForSeconds(1);
-        enterText(enterFrameworkDetails, framework);
+        enterText(searchBox, searchText);
         waitForSeconds(2);
         searchButton.click();
         //clickButton("search");

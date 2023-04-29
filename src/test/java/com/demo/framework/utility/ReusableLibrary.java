@@ -22,7 +22,7 @@ public class ReusableLibrary {
 	    }
 
 	    public void enterText(WebElement element, String text) {
-	        waitForSeconds(1);
+	        //waitForSeconds(1);
 	        wait.until(ExpectedConditions.elementToBeClickable(element));
 	        element.sendKeys(text);
 	        element.sendKeys(Keys.TAB);
@@ -36,7 +36,10 @@ public class ReusableLibrary {
 	    }
 
 
-
+	public String getElementText(WebElement element) {
+		wait.until(ExpectedConditions.visibilityOf(element));
+		return element.getText();
+	}
 
 
 

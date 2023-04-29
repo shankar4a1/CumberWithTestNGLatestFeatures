@@ -47,13 +47,14 @@ public class HomeSteps {
 
     }
 
-    @And("User enters \"([^\"]*)\" details")
-    public void user_enters_details(String framework) throws MalformedURLException, InterruptedException {
-        HomePage homePageObj = objectManager.getHomePageObj();
-        homePageObj.enterFrameworkDetails(framework);
-        testContextObj.takeSnapShot();
-
-    }
+//    @And("User enters \"([^\"]*)\" details")
+//    public void user_enters_details(String framework) throws MalformedURLException, InterruptedException {
+//        HomePage homePageObj = objectManager.getHomePageObj();
+//        homePageObj.activateSearch();
+//        homePageObj.enterFrameworkDetails(framework);
+//        testContextObj.takeSnapShot();
+//
+//    }
 
     @And("User clicks on the \"([^\"]*)\" button")
     public void user_clicks_on_the_button(String testFieldName) throws InterruptedException{
@@ -86,6 +87,12 @@ public class HomeSteps {
     }
 
 
-
+    @And("User enters {string} details")
+    public void userEntersDetails(String framework) {
+                HomePage homePageObj = objectManager.getHomePageObj();
+        homePageObj.activateSearch();
+        homePageObj.enterFrameworkDetails(framework);
+        testContextObj.takeSnapShot();
+    }
 }
 

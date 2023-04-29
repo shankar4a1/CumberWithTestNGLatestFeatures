@@ -84,7 +84,7 @@ public class TestContext {
     public void cleanUp() throws Exception {
         if(configReader.get("browserName").equalsIgnoreCase("chrome_profile")||configReader.get("browserName").equalsIgnoreCase("CHROME_HEADLESS"))
         {browserFactory.deleteDirectory();}
-        takeSnapShot();
+        //takeSnapShot();
 
         log.info("=================" + scenario.getName() + " execution ends" + "===================");
 //      eyes.closeAsync();
